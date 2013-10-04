@@ -1,0 +1,30 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.5)
+    coderay (1.0.9)
+    faraday (0.8.8)
+      multipart-post (~> 1.2.0)
+    method_source (0.8.1)
+    multipart-post (1.2.0)
+    octokit (2.3.1)
+      sawyer (~> 0.5.1)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    sawyer (0.5.1)
+      addressable (~> 2.3.5)
+      faraday (~> 0.8, < 0.10)
+    slop (3.4.5)
+    thor (0.18.1)
+    timerizer (0.1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  octokit
+  pry
+  thor
+  timerizer
